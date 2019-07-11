@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-js-challenge",
+  "version": "1.0.0",
+  "description": "Implementation of coding challenges based on [Wes Bos's Javascript30 Challenge](https://JavaScript30.com)",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moseley/vanilla-js-challenge.git"
+  },
+  "author": "Jeremy Moseley <jeremymoseley@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moseley/vanilla-js-challenge/issues"
+  },
+  "homepage": "https://github.com/moseley/vanilla-js-challenge#readme"
+}
