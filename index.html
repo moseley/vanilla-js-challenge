@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Examples</title>
+  </head>
+  <body>
+    <h1>Javascript Examples</h1>
+    <ul id="samples"></ul>
+    <script>
+      const samples = [
+        { dir: 'drumkit', name: 'Drum Kit' },
+        { dir: 'clock', name: 'Clock' },
+        { dir: 'gallery', name: 'Flex Panel Gallery' },
+        { dir: 'type-ahead', name: 'Type Ahead' },
+        { dir: 'brush', name: 'Canvas Brush' },
+        { dir: 'shift-click', name: 'Shift Click' },
+        { dir: 'video-player', name: 'Video PLayer' },
+        { dir: 'key-squence', name: 'Key Sequence' },
+        { dir: 'scroll', name: 'Slide in on Scroll' },
+        { dir: 'local-storage', name: 'Tapas Menu' },
+        { dir: 'mouse-move', name: 'Mouse Move Shadow' }
+        //{ dir: 'webcam', name: 'Webcam' }
+      ];
+      document.querySelector('#samples').innerHTML = samples
+        .map(sample => {
+          return `<li><a href="/${sample.dir}/">${sample.name}</a></li>`;
+        })
+        .join('');
+    </script>
+  </body>
+</html>
